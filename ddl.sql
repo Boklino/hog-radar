@@ -16,7 +16,7 @@ CREATE TABLE hog.player (
     country VARCHAR NOT NULL,
     time_zone VARCHAR NOT NULL,
     queen_level INT NOT NULL,
-    hog_rank INT NOT NULL,
+    hog_rank VARCHAR NOT NULL,
     main_troop_type VARCHAR NOT NULL,
     highest_troop_tier INT NOT NULL,
     kill_count INT NOT NULL,
