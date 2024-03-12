@@ -7,6 +7,7 @@ DROP TABLE IF EXISTS hog.player CASCADE;
 DROP TABLE IF EXISTS li.war CASCADE;
 DROP TABLE IF EXISTS li.player_war_performance CASCADE;
 
+
 -- Creation of hog.player table
 CREATE TABLE hog.player (
     player_id SERIAL PRIMARY KEY,
